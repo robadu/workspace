@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your total is 0" 
+        android:text="Your Total Is 0" 
     	android:textSize="45dp"
 		android:layout_gravity="center"
 		android:id="@+id/tvDisplay"
@@ -17,7 +17,7 @@
      <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Add one"
+        android:text="Add One"
         android:layout_gravity="center"
         android:textSize="20dp"
        	android:id="@+id/bAdd"
@@ -26,7 +26,7 @@
      <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Subtract one"
+        android:text="Subtract One"
         android:layout_gravity="center"
         android:textSize="20dp"
      	android:id="@+id/bSub"

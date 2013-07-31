@@ -15,6 +15,9 @@
 		<item value="false" key="wholeword"/>
 		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value=" &lt;plugin name=&quot;Device&quot; value=&quot;org.apache.cordova.Device&quot;/&gt; &lt;!-- Used to initialize cordova class --&gt;"/>
+			<item value="   &lt;plugin name=&quot;Device&quot; value=&quot;org.apache.cordova.Device&quot;/&gt; &lt;!-- Used to initialize cordova class --&gt;"/>
+			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;"/>
 			<item value="activity_list_item"/>
 		</list>
 		<list key="replacehistory">
