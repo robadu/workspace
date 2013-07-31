@@ -22,6 +22,7 @@
                 background:#737CA1;
             }
         </style>
+        
         <script type="text/javascript" src="cordova-2.7.0.js"></script>
         <script type="text/javascript" src="barcodescanner.js"></script>
         <script type="text/javascript">
@@ -56,11 +57,17 @@
                     return false;
                 }
             }
-        </script>
+    	</script>
+    	<script type="text/javascript" charset="utf-8">
+	    	document.addEventListener("deviceready", onDeviceReady, false);
+    		function onDeviceReady() {
+        		navigator.splashscreen.hide();
+  			}
+    	</script>
     </head>
  
     <body>
-        <h3>Barcode/QR Code Scanner And Encoder</h3>
+        <h3>Playback</h3>
  
         <input type="button" value="Scan Code" onclick="scanCode();"/><br/><br/>
  

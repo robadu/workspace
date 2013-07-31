@@ -9,6 +9,8 @@ public class MainActivity extends DroidGap {
     @Override
     public void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
-         super.loadUrl("file:///android_asset/www/index.html");
+         //setContentView(R.layout.main_layout);
+         super.setIntegerProperty("splashscreen", R.drawable.playback);
+         super.loadUrl("file:///android_asset/www/index.html", 3000);
     }
 }
